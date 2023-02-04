@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworks>net6-windows;net7.0-windows</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Nodify">
+      <HintPath>..\nodify\Nodify\bin\Release\net472\Nodify.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
